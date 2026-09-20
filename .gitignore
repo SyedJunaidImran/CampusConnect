@@ -1,0 +1,37 @@
+# ============================================================
+# Root .gitignore for CampusConnect Project
+# ============================================================
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+.idea/
+.vscode/
+
+# Environment files containing secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Backend artifacts
+campus-connect-backend/target/
+campus-connect-backend/uploads/
+campus-connect-backend/.env
+campus-connect-backend/*.log
+
+# Frontend artifacts
+campus-connect-frontend/node_modules/
+campus-connect-frontend/dist/
+campus-connect-frontend/.env
+campus-connect-frontend/.env.local
+campus-connect-frontend/.env.*.local
+campus-connect-frontend/.env.production
+
+# General logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
